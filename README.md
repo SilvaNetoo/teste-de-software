@@ -1,4 +1,8 @@
-# HandleProduct
+#Teste-de-software
+
+Esse projeto é um CRUD simples com front e back integrado e funcional, o intuito do sistema e prover um ambiente para praticar e aprender a ferramenta de teste end-to-end chamada protactor.
+
+## HandleProduct
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.2.
 
