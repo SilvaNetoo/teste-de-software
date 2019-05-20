@@ -1,0 +1,50 @@
+.navbar, .navbar-dark {
+    background-color: #f9b706;
+    z-index: 20;
+}
+
+.collapse .navbar-collapse {
+    background-color: black;
+}
+
+.sidebar {
+    background-color: #ffffff;
+    width: 350px;
+    z-index: 19;
+    top: 0;
+    position: absolute;
+    box-shadow: 5px 10px 25px 5px grey;
+    min-height: 100%;    
+}
+
+.sidebar-menu {
+    margin-top: 100px;
+}
+
+.sidebar-item {
+    display: block;
+    color: black;
+    margin-left: 40px;   
+    margin-bottom: 9%;
+    font-size: 20px; 
+}
+
+.sidebar-item:first-child{
+    margin-top: 30%;
+}
+
+hr {
+    width: 200px;
+    height: 15px;
+    color: black;
+}
+
+.icon{
+    width: 25px;
+    margin-right: 20px;
+}
+
+.alain-height{
+    height: 200%;
+}
+

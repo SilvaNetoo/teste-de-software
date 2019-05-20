@@ -1,0 +1,30 @@
+<div>
+  <div class="row">
+    <div class="col-md-12">
+      <h3 style="text-align: center; color: #f9b706">Listar Produtos</h3>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <table class="table" *ngIf="listProduct">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nome</th>
+        <th scope="col">Valor</th>
+        <th scope="col"></th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of listProduct; let i = index">
+        <th scope="row">{{i + 1}}</th>
+        <td>{{product.name}}</td>
+        <td>{{product.value}}</td>
+        <td><img class="icon" src="assets/delet.svg" (click)="deletProduct(product.id)" alt="img-construtoras"></td>
+        <td><img class="icon" src="assets/writing.svg" (click)="editProduct(product.id)" alt="img-construtoras"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
