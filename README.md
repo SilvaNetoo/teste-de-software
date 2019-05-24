@@ -9,5 +9,5 @@ Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli
 ## Servidor de desenvolvimento
 
 Para rodar esse projeto é necessário ter uma instancia do mySQL rodando com a tabela criada 'Product';
-Para rodar o projeto é necessário digitar o comando `npm install` após isso digitar o comando `ng serve`. Acesse o link `http://localhost:4200/`.
+Para rodar o projeto é necessário digitar o comando `npm install` após isso digitar o comando `ng serve`. Acesse o link `http://localhost:4200/` ele redirecionará para a url correta automaticamente.
 Para rodar os testes automatizados é necessário digitar o comando `ng e2e`.
