@@ -18,12 +18,12 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let product of listProduct; let i = index">
+      <tr class="list-product" *ngFor="let product of listProduct; let i = index">
         <th scope="row">{{i + 1}}</th>
-        <td>{{product.name}}</td>
-        <td>{{product.value}}</td>
-        <td><img class="icon" src="assets/delet.svg" (click)="deletProduct(product.id)" alt="img-construtoras"></td>
-        <td><img class="icon" src="assets/writing.svg" (click)="editProduct(product.id)" alt="img-construtoras"></td>
+        <td id="name">{{product.name}}</td>
+        <td id="value">{{product.value}}</td>
+        <td><img id="btn-deletar" class="icon" src="assets/delet.svg" (click)="deletProduct(product.id)" alt="img-construtoras"></td>
+        <td><img id="btn-editar" class="icon" src="assets/writing.svg" (click)="editProduct(product.id)" alt="img-construtoras"></td>
       </tr>
     </tbody>
   </table>
