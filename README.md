@@ -6,7 +6,7 @@ Esse projeto é um CRUD simples com front e back integrado e funcional, o intuit
 
 Esse projeto foi gerado com versão 7.1.2. 
 
-## Rodando o projeto 
+## Como iniciar o projeto
 
 Para rodar esse projeto é necessário ter uma instância do mySQL rodando com a tabela criada 'Product'; 
 Para rodar o projeto é necessário digitar o comando `npm install` após isso digitar o comando `ng serve`. Acesse o link `http://localhost:4200/` ele redirecionará para a url correta automaticamente. 
