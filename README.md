@@ -26,5 +26,5 @@ Foi feito um simulçação aonde o usuário faria as seguntes atividades:
 
     √ Cadastrar um produto
     √ Direcionar para a tela de listagem de produtos, e verificar se o item foi adicionado
-    √ Clickar no botão de editar e editar os dados do valor do notebook
+    √ Clickar no botão de editar e editar os dados do valor do produto
     √ Deletar o dado inserido de forma automatizada
