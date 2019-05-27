@@ -1,6 +1,6 @@
 # Teste de software 
 
-Esse projeto é um CRUD simples com front e back integrado e funcional. O intuito do sistema é prover um ambiente para praticar e aprender a ferramenta de teste end-to-end chamada protactor. 
+Esse projeto é um CRUD simples com front e back integrado e funcional. O intuito do sistema é prover um ambiente para praticar e aprender a ferramenta de teste end-to-end chamada protactor (https://www.protractortest.org/#/). 
 
 ## Versão do CLI 
 
