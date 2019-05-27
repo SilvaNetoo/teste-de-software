@@ -19,3 +19,12 @@ Protractor é um framework de teste de ponta a ponta para aplicativos Angular e 
 ## O que é teste end-to-end?
 
 O teste end-to-end é uma metodologia utilizada para testar se o fluxo de um aplicativo está sendo executado de forma correta do início ao fim. É um forma de realizar testes nas quais visam provar o sistema de uma forma mais completa simulando o ambiente real.
+
+## Processo de automatização.
+
+Foi feito um simulçação aonde o usuário faria as seguntes atividades:
+
+    √ Cadastrar um produto
+    √ Direcionar para a tela de listagem de produtos, e verificar se o item foi adicionado
+    √ Clickar no botão de editar e editar os dados do valor do notebook
+    √ Deletar o dado inserido de forma automatizada
