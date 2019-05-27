@@ -21,7 +21,7 @@ describe('workspace-project App', () => {
   });
 
   it('Direcionar para a tela de listagem de produtos, e verificar se o item foi adicionado', () => {
-    let last = element.all(by.id('name')).last();
+    const last = element.all(by.id('name')).last();
     browser.wait(browser.getCurrentUrl(), waitTime).then(() => {
       browser.sleep(waitTimeToViewValue);
       expect(last.getText()).toBe('Asus VivoBook X510UR-BQ292T Intel Core i7-7500U 2.7 GHz 8192 MB 1024 GB');
@@ -48,7 +48,7 @@ describe('workspace-project App', () => {
 
   it('Deletar o dado inserido de forma automatizada', () => {
     page.clickDeleteButton();
-    let last = element.all(by.id('name')).last();
+    const last = element.all(by.id('name')).last();
     browser.sleep(waitTime);
     expect(last.getText()).not.toBe('Asus VivoBook X510UR-BQ292T Intel Core i7-7500U 2.7 GHz 8192 MB 1024 GB');
   });

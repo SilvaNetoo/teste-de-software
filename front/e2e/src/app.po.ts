@@ -1,10 +1,17 @@
 import { browser, by, element } from 'protractor';
 
 export class AppPage {
+
+  /**
+   * @description O método redireciona para a url passada
+   */
   navigateToPageProduct() {
     return browser.get('http://localhost:4200/product');
   }
 
+  /**
+   * @description O método redireciona para a url passada
+   */
   navigateToPageListProduct() {
     return browser.get('http://localhost:4200/product-list');
   }
