@@ -14,7 +14,7 @@ Para rodar os testes automatizados é necessário digitar o comando `ng e2e`.
 
 ## O que é o Protractor?
 
-Protractor é uma estrutura de teste de ponta a ponta para aplicativos Angular e AngularJS. Protractor executa testes contra seu aplicativo em execução em um navegador real, interagindo com ele como um usuário faria. O Protractor é baseado em selenium.
+Protractor é um framework de teste de ponta a ponta para aplicativos Angular e AngularJS. Protractor executa testes contra seu aplicativo em execução em um navegador real, interagindo com ele como um usuário faria. O Protractor é baseado em selenium.
 
 ## O que é teste end-to-end?
 
